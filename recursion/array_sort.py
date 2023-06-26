@@ -6,7 +6,7 @@ def array_sort(arr):
     insert(arr, temp)
     
 def insert(arr, element):
-    if len(arr)==0 or element >arr[-1]:
+    if len(arr)==0 or element >=arr[-1]:
         arr.append(element)
         return
     temp = arr.pop()
