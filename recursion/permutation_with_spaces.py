@@ -7,6 +7,7 @@ def solve(string, output):
     string = string[1:]
     solve(string, output1)
     solve(string, output2)
+    return
 
 string = "ABC"
 output = ''
