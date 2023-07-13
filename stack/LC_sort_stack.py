@@ -2,6 +2,8 @@
 
 '''
 URL: https://www.codingninjas.com/studio/problems/sort-a-stack_985275?topList=love-babbar-dsa-sheet-problems&leftPanelTab=0%3Fsource%3Dyoutube&campaign=Lovebabbarcodestudio
+
+TC = O(n^2) and Sc = O(1)
 '''
 
 from collections import deque
@@ -26,7 +28,7 @@ def sort_stack(stack):
 
 
 if __name__ == "__main__":
-    stack = deque([5,9,3,4,0,2,7,1])
+    stack = deque([5,2,9,3,4,0,2,7,-11])
     stack_size = len(stack)
     print("Original Stack: ", stack)
     sort_stack(stack)
