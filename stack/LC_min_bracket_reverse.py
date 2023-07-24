@@ -1,6 +1,6 @@
-#
+# Minimum cost to make a string valid
 '''
-
+URL : https://www.codingninjas.com/studio/problems/minimum-cost-to-make-string-valid_1115770?leftPanelTab=0%3Fsource%3Dyoutube&campaign=Lovebabbarcodestudio
 '''
 
 def findMinimumCost(string):
